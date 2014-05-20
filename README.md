@@ -7,6 +7,7 @@ Uses a [Procfile](https://github.com/dwilkie/server-scripts-cron/blob/master/Pro
 ```
 git clone git://github.com/dwilkie/server-scripts-cron
 cd server-scripts-cron
+bundle install --path vendor
 ```
 
 ## Configuration
