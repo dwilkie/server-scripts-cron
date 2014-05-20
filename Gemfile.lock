@@ -6,8 +6,9 @@ GIT
       dotenv (~> 0.7.0)
       thor (~> 0.17.0)
 
-PATH
-  remote: /home/dave/work/contrib/server-scripts
+GIT
+  remote: git://github.com/dwilkie/server-scripts.git
+  revision: 804a5855174a6a55b793be476f2a7eb149efcd67
   specs:
     server-scripts (0.0.1)
       mail
