@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+<% env_vars = engine.env.map { |name, value| "#{name.to_s.upcase}='#{value.gsub(/'/, "'\"'\"'")}'"} -%>
+<% env_vars.unshift("BUNDLE_GEMFILE='#{engine.root}/Gemfile'") -%>
+<%= env_vars.join " " %> <%= process.command %>
