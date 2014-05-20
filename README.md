@@ -19,7 +19,7 @@ Fill out your [Procfile](https://github.com/dwilkie/server-scripts-cron/blob/mas
 The following command will generate cron scripts for the files in your [Procfile](https://github.com/dwilkie/server-scripts-cron/blob/master/Procfile) under the [cron directory](https://github.com/dwilkie/server-scripts-cron/tree/master/cron)
 
 ```
-bundle exec foreman export upstart cron/ -t export/cron/ -e .env.production && mv cron/app-disk_usage-1.conf cron/disk_usage && chmod 700 cron/disk_usage && rm cron/app.conf && rm cron/app-disk_usage.conf
+bundle exec foreman export upstart cron/ -t export/cron/ -e .env.production && mv cron/app-disk_usage-1.conf cron/disk_usage && chmod 700 cron/disk_usage && rm cron/*.conf
 ```
 
 ## Installing Cron Jobs
