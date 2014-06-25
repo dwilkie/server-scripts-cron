@@ -1,6 +1,6 @@
 # server-scripts-cron
 
-Uses a [Procfile](https://github.com/dwilkie/server-scripts-cron/blob/master/Procfile) to export [server-scripts](https://github.com/dwilkie/server-scripts) to cron.
+Uses a [Procfile](https://github.com/dwilkie/server-scripts-cron/blob/master/Procfile) to export [server-scripts](https://github.com/dwilkie/server-scripts) for cron or in other environments.
 
 ## Installation
 
