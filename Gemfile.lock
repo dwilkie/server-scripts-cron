@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git://github.com/dwilkie/server-scripts.git
-  revision: 588564bea23623877a1a6a53c933553b8ba375b2
+  revision: 6c1ae1c9ac00957209a25cbd54c68c5539a950bb
   specs:
     server-scripts (0.0.1)
       mail
